@@ -86,7 +86,7 @@ export default function Footer() {
       >
         <img
           className="wa-float-icon"
-          src="src\assets\images\whatsapp-logo-free-vector.jpg"
+          src="https://cdn.vectorstock.com/i/500p/61/45/whatsapp-logo-phone-icon-vector-26936145.jpg"
           alt="Whatsapp"
         />
       </a>
