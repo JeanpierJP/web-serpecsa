@@ -154,6 +154,7 @@ nav a {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  transition: color 0.2s ease;
 }
 
 .nav-dropdown {
@@ -171,6 +172,14 @@ nav a {
   font-family: inherit;
   cursor: pointer;
   padding: 0;
+  transition: color 0.2s ease;
+}
+
+nav a:hover:not(.btn-nav),
+nav a:focus-visible:not(.btn-nav),
+.nav-dropdown-btn:hover,
+.nav-dropdown-btn:focus-visible {
+  color: var(--yellow);
 }
 
 .nav-dropdown-menu {
