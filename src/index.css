@@ -1071,6 +1071,12 @@ nav a.active {
   font-size: 0.95rem;
   font-weight: 800;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-submit:hover,
+.contact-submit:focus-visible {
+  background: #0a4a28;
 }
 
 .clients-section {
